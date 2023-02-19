@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  list-style: none;
   font-weight: 500;
 }
 
@@ -14,7 +15,7 @@ html {
 
 /* --------- CLOTHING SECTION STARTS --------- */
 .cloth .cloth-title {
-  margin: 20px 0 0 20px;
+  margin: 50px 0 0 50px;
   color: rgb(27, 25, 25);
 }
 
@@ -74,8 +75,10 @@ html {
 
 /* --------- CLOTHING SECTION ENDS --------- */
 
+
+/* --------- ACCESSORIES SECTION STARTS --------- */
 .accessory .accessory-title {
-  margin: 20px 0 0 20px;
+  margin: 50px 0 0 50px;
   color: rgb(27, 25, 25);
 }
 
@@ -132,3 +135,32 @@ html {
   letter-spacing: 2px;
   color: #009688;
 }
+
+/* --------- ACCESSORIES SECTION ENDS --------- */
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 30px 0 30px 0;
+}
+
+footer h3 {
+    color: #dcdcdc;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+footer ul li{
+    text-decoration: none;
+    color: #b8b8b8;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+footer ul li:hover {
+    color: #009688;
+  }
