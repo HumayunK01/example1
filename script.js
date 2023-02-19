@@ -1,4 +1,4 @@
-// --------- CREATING CLOTHING CARDS USING JAVASCRIPT ---------
+// --------- CREATING CLOTHING CARDS ---------
 const clothingCards = document.getElementById("clothContainer");
 const cards = [
   {
@@ -54,7 +54,7 @@ output += `<div class="card" id="${cards[i].id}">
 clothingCards.innerHTML = output;
 
 
-// --------- CREATING ACCESSORIES CARDS USING JAVASCRIPT ---------
+// --------- CREATING ACCESSORIES CARDS ---------
 const accessoryContainer = document.getElementById("accessoryContainer");
 const cards2 = [
   {
