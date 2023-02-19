@@ -7,11 +7,84 @@
   font-family: "Montserrat", sans-serif;
   list-style: none;
   font-weight: 500;
+  text-decoration: none;
 }
 
 html {
   scroll-behavior: smooth;
 }
+
+/* --------- NAVBAR SECTION STARTS --------- */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  padding: 25px 100px;
+  box-shadow: 2px 4px 2px rgb(17 16 16 / 50%);
+}
+
+nav .logo a h4 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+nav .logo a h4 span {
+  color: #009688;
+  letter-spacing: 1px;
+}
+
+nav .menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  user-select: none;
+}
+
+nav .menu ul li {
+  display: inline-block;
+  margin-left: 40px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+nav .menu ul li:hover {
+  color: #009688;
+}
+
+nav .icons {
+  user-select: none;
+}
+
+nav .icons a {
+  color: #000000;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+@media (max-width: 500px) {
+  nav {
+    padding: 25px;
+  }
+  nav .logo a h4 {
+    font-size: 20px;
+  }
+  nav .menu {
+    display: none;
+  }
+  nav .icons a {
+    margin-left: 20px;
+  }
+}
+
+/* --------- NAVBAR SECTION ENDS --------- */
 
 /* --------- CLOTHING SECTION STARTS --------- */
 .cloth .cloth-title {
