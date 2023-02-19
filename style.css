@@ -75,7 +75,6 @@ html {
 
 /* --------- CLOTHING SECTION ENDS --------- */
 
-
 /* --------- ACCESSORIES SECTION STARTS --------- */
 .accessory .accessory-title {
   margin: 50px 0 0 50px;
@@ -138,29 +137,32 @@ html {
 
 /* --------- ACCESSORIES SECTION ENDS --------- */
 
+/* --------- FOOTER SECTION STARTS --------- */
 footer {
-    background-color: #000000;
-    color: #fff;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    padding: 30px 0 30px 0;
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 30px 0 30px 0;
 }
 
 footer h3 {
-    color: #dcdcdc;
-    font-size: 16px;
-    margin-bottom: 10px;
-    cursor: pointer;
+  color: #dcdcdc;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
 
-footer ul li{
-    text-decoration: none;
-    color: #b8b8b8;
-    font-size: 12px;
-    cursor: pointer;
+footer ul li {
+  text-decoration: none;
+  color: #b8b8b8;
+  font-size: 12px;
+  cursor: pointer;
 }
 
 footer ul li:hover {
-    color: #009688;
-  }
+  color: #009688;
+}
+
+/* --------- FOOTER SECTION ENDS --------- */
