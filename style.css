@@ -143,14 +143,15 @@ footer {
   color: #fff;
   display: flex;
   align-items: flex-start;
-  justify-content: space-evenly;
-  padding: 30px 0 30px 0;
+  justify-content: space-around;
+  padding: 30px 0 40px 0;
 }
 
 footer h3 {
   color: #dcdcdc;
   font-size: 16px;
   margin-bottom: 10px;
+  font-weight: 600;
   cursor: pointer;
 }
 
@@ -159,10 +160,23 @@ footer ul li {
   color: #b8b8b8;
   font-size: 12px;
   cursor: pointer;
+  margin-bottom: 5px;
 }
 
 footer ul li:hover {
   color: #009688;
+}
+
+@media (max-width: 500px) {
+  footer {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  .foot1,
+  .foot2,
+  .foot3 {
+    margin-bottom: 30px;
+  }
 }
 
 /* --------- FOOTER SECTION ENDS --------- */
