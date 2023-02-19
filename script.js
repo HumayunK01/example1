@@ -15,6 +15,27 @@ const cards = [
     subtitle: "Puma",
     price: "Rs 7999",
   },
+  {
+    id: 3,
+    img: "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/productimage/2018/9/19/b1373b00-37d4-41a0-a908-5d742a68d3661537343756229-1.jpg",
+    title: "Men Black Action Parkview Lifestyle Shoes",
+    subtitle: "Hush Puppies",
+    price: "Rs 6999",
+  },
+  {
+    id: 4,
+    img: "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3854721/2018/3/12/11520844673915-BARESKIN-Women-Black-Solid-Lightweight-Leather-Jacket-7761520844673718-1.jpg",
+    title: "Women Black Solid Lightweight Leather Jacket",
+    subtitle: "BARESKIN",
+    price: "Rs 9999",
+  },
+  {
+    id: 4,
+    img: "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/5649908/2018/5/10/6bfe80cd-2f55-42bc-aa7f-e0d6c9e2ac531525936414747-SASSAFRAS-Women-Blue-Solid-Shirt-Dress-3831525936414532-1.jpg",
+    title: "Women Blue Solid Shirt Dress",
+    subtitle: "SASSAFRAS",
+    price: "Rs 5200",
+  },
 ];
 
 let output = "";
