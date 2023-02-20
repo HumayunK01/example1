@@ -81,11 +81,22 @@ nav .icons a {
     display: none;
   }
   nav .icons a {
+    font-size: 15px;
     margin-left: 20px;
   }
 }
 
 /* --------- NAVBAR SECTION ENDS --------- */
+
+/* --------- SLIDER SECTION STARTS --------- */
+.banner {
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+}
+/* --------- SLIDER SECTION ENDS --------- */
 
 /* --------- FEATURES SECTION STARTS --------- */
 #features {
