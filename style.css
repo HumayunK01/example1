@@ -87,8 +87,14 @@ nav .icons a {
 /* --------- NAVBAR SECTION ENDS --------- */
 
 /* --------- CLOTHING SECTION STARTS --------- */
+.cloth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .cloth .cloth-title {
-  margin: 50px 0 0 50px;
+  margin: 20px 0 0 20px;
   color: rgb(27, 25, 25);
 }
 
@@ -146,11 +152,31 @@ nav .icons a {
   color: #009688;
 }
 
+@media (max-width: 450px) {
+  .cloth .cloth-container .card {
+    width: 150px;
+    min-width: 100px;
+    margin: 20px 10px;
+  }
+  .cloth .cloth-title {
+    font-size: 14px;
+  }
+  .cloth .cloth-container {
+    padding: 0 2%;
+  }
+}
+
 /* --------- CLOTHING SECTION ENDS --------- */
 
 /* --------- ACCESSORIES SECTION STARTS --------- */
+.accessory {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .accessory .accessory-title {
-  margin: 50px 0 0 50px;
+  margin: 20px 0 0 20px;
   color: rgb(27, 25, 25);
 }
 
@@ -206,6 +232,20 @@ nav .icons a {
   font-size: 15px;
   letter-spacing: 2px;
   color: #009688;
+}
+
+@media (max-width: 450px) {
+  .accessory .accessory-container {
+    padding: 0 2%;
+  }
+  .accessory .accessory-container .card {
+    width: 150px;
+    min-width: 100px;
+    margin: 20px 10px;
+  }
+  .accessory .accessory-title {
+    font-size: 14px;
+  }
 }
 
 /* --------- ACCESSORIES SECTION ENDS --------- */
